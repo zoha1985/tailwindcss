@@ -30,8 +30,8 @@ const Home = () => {
            </div>
 
 
-           <div class="container mx-auto w-full mt-20">
-                <div class=" grid grid-rows-4 grid-cols-4 gap-4 ">
+           <div class="container  mt-20">
+                <div class="grid md:grid-cols-3 gap-4 ">
                   
                        
                     {
