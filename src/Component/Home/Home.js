@@ -14,7 +14,7 @@ const Home = () => {
         })
       },[]);
     return (
-        <div >
+        <div class="bg-blue-100" >
            <div class="flex bg-gray-400 h-20 justify-between pt-5">
            <div class="justify-items-start">
                     <h4 class="text-2xl ">This is a logo</h4>
@@ -37,12 +37,24 @@ const Home = () => {
                     {
                         newCard.map(newCard => <Clint newCard={newCard}></Clint>)
                     }
-           
-
-
-                
-                </div>
+                    </div>
             </div>
+
+            <div class="flex bg-gray-400 h-20 justify-between pt-5">
+              <h2>Footer section</h2>
+           <div class="justify-items-start">
+                    <h4 class="text-2xl ">Footer address</h4>
+              </div>
+                <div class="justify-self-end">
+                  <h1> Footer manue</h1>
+                    <ul class="">
+                        <li class="inline-block px-5"> <a href="#" class="no-underline text-2xl"> Home</a></li>
+                        <li class="inline-block px-5"> <a href="#"  class="no-underline text-2xl"> About</a></li>
+                        <li class="inline-block px-5"> <a href="#"  class="no-underline text-2xl"> Contact</a></li>
+                        <li class="inline-block px-5"> <a href="#"  class="no-underline text-2xl"> Portfolio</a></li>
+                    </ul>
+                </div>
+           </div>
              
               
         </div>
