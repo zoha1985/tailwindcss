@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './Component/Home/Home';
 
 function App() {
   return (
     <div className="App">
-  <h1> This is a another css library</h1>
+    
+     <Home />
+     
     </div>
   );
 }
