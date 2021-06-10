@@ -1,3 +1,35 @@
+## This is a tailwindCss Use project
+## uses
+1. npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+
+2. npm install @craco/craco
+
+    "start": "craco start", 
+    "build": "craco build", 
+    "test": "craco test",
+
+3. craco.config.js
+// craco.config.js
+ module.exports = { style: { postcss: { plugins: [ require('tailwindcss'), require('autoprefixer'), ], }, }, }
+
+4. npx tailwindcss-cli@latest init
+// tailwind.config.js module.exports = { purge: [], darkMode: false, // or 'media' or 'class' theme: { extend: {}, }, variants: { extend: {}, }, plugins: [], }
+
+5. Create file ## tailwind.config.js
+'./src/**/*.{js,jsx,ts,tsx}', './public/index.html'
+/ ./src/index.css /
+/* ./your-css-folder/styles.css */ @tailwind base; @tailwind components; @tailwind utilities;
+
+**Run **
+
+npm start
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
